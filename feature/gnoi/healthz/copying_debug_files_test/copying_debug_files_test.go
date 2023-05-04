@@ -47,7 +47,7 @@ func TestMain(m *testing.M) {
 //  0) Crash a process in the software using some specific command.
 //  1) Issue gnoi healthz grpc call to chassis.
 //  2) Validate the device returns relevant information with STATUS_HEALTHY
-//  3) Validate the healthz return contains information to debug offline like core file
+//  3) TODO: Validate the healthz return contains information to debug offline like core file
 // Topology:
 //   DUT
 //
